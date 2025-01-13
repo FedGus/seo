@@ -1,0 +1,40 @@
+@media screen and (max-width: 768px) {
+    header {
+        display: flex;
+        align-items: center;
+    }
+
+    .orange-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .first-orange-section {
+        width: 100%;
+        position: relative;
+        top: 0
+    }
+
+    .second-section {
+        margin-left: 0;
+    }
+
+    .third-section {
+        margin-right: 0;
+    }
+
+    .after-image-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-section form {
+        display: flex;
+        flex-direction: column;
+    }
+}
